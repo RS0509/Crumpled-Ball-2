@@ -9,7 +9,7 @@ class Dustbin
 		this.wallThickness=20;
 		this.angle=0;	
 		
-		this.image = loadImage("Images/dustbin.png");
+		this.image = loadImage("dustbin.png");
 		this.bottomBody=Bodies.rectangle(this.x, this.y, this.dustbinWidth, this.wallThickness, {isStatic:true})
 		this.leftWallBody=Bodies.rectangle(this.x-this.dustbinWidth/2, this.y-this.dustbinHeight/2, this.wallThickness, this.dustbinHeight, {isStatic:true})
 		Matter.Body.setAngle(this.leftWallBody, this.angle);
