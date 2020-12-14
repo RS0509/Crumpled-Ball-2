@@ -8,7 +8,7 @@ class Paper
 			friction:0.5,
 			density:1.2
 			}
-		this.image = loadImage("Images/paperBall.png");
+		this.image = loadImage("paperBall.png");
 		this.x=x;
 		this.y=y;
 		this.r=r
